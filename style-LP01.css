@@ -32,7 +32,7 @@ html,body{
     height: 100%;
     width: 67%;
     background-color: rgb(10, 232, 180);
-    background-image: url(https://media.istockphoto.com/id/1066986764/photo/look-over-there.jpg?s=612x612&w=0&k=20&c=SlqwA9VRSYcYhPHM_gzmkkiVVmqoEEkmXDjYd9swg0A=);
+    background-image: url(./background_landingPage-01.webp);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -61,7 +61,7 @@ html,body{
     top: 26%;
     right: 13%;
     transform: translate(0.-50%);
-    background-image: url(https://images.unsplash.com/photo-1601288496920-b6154fe3626a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D);
+    background-image: url(./background-02-LandingPage-01.webp);
     background-position:center;
     background-size:cover;
 }
