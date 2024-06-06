@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234 76 137);
+}
+#main{
+    height:80vh;
+    width:80vw;
+    background-color: rgb(244 162 194);
+    display: flex;
+}
+#part-1{
+    height: 100%;
+    width: 26%;
+}
+#text-div{
+    width:400px ;
+    position: absolute;
+    top:55%;
+    left:15%;
+    transform: translate(0,-50%);
+}
+#part-2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(10, 232, 180);
+    background-image: url(https://media.istockphoto.com/id/1066986764/photo/look-over-there.jpg?s=612x612&w=0&k=20&c=SlqwA9VRSYcYhPHM_gzmkkiVVmqoEEkmXDjYd9swg0A=);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(95, 37, 52, 0.242);
+}
+#part-3{
+    height: 100%;
+    width: 7%;
+}
+#text-div >h1{
+    font-size:85px ;
+    font-family:monument;
+    font-weight:600 ;
+    line-height:70px ;
+    color: #fff;
+    text-transform: uppercase;
+}
+#small-img-div{
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    top: 26%;
+    right: 13%;
+    transform: translate(0.-50%);
+    background-image: url(https://images.unsplash.com/photo-1601288496920-b6154fe3626a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D);
+    background-position:center;
+    background-size:cover;
+}
+#vertical-text{
+    position: absolute;
+    right: -280px;
+    top: 25%;
+    transform-origin: 0% 0%;
+}
+#vertical-text>h1{
+    font-size: 100px;
+    font-family:monument ;
+    font-weight:100;
+    letter-spacing: 1px;
+    transform: rotate(90deg);
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2px;
+}
+#nav{
+    position: absolute;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    margin-left: 80px;
+}
+#nav img{
+    height:100px ;
+    border-radius: 50px;
+}
+#nav h5{
+    font-size: 20px;
+    margin-left: 20px;
+    font-family:monument ;
+    font-weight:150px;
+    color: #fff;
+    -webkit-text-stroke-color: #fff;
+}
+
